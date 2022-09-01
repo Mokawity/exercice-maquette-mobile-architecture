@@ -42,3 +42,41 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+body {
+  font-family: "Roboto";
+  margin-left: 8px;
+}
+
+header {
+  padding-left: 8px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  color: #000000;
+  padding-top: 20px;
+  padding-bottom: 19px;
+}
+
+.nav p {
+  margin-left: 8px;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 { 
+  font-size: 30;
+  padding-bottom: 7px;
+}
+
+h2 {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 100;
+}
