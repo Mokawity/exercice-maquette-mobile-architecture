@@ -45,7 +45,6 @@ video {
 
 body {
   font-family: "Roboto";
-  margin-left: 8px;
 }
 
 header {
@@ -79,4 +78,22 @@ h2 {
   font-size: 16px;
   color: #000000;
   font-weight: 100;
+  padding-bottom: 40px;
+}
+
+main {
+  padding-left: 8px;
+  font-size: 12px;
+}
+
+span.title {
+  font-weight: bold;
+}
+
+span.link-floorplan {
+  color: grey;
+}
+
+.information.p {
+  line-height: 2px;
 }
