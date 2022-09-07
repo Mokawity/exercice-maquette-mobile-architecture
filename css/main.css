@@ -37,6 +37,8 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 /* ====================================
@@ -51,25 +53,40 @@ header {
   padding-left: 8px;
 }
 
+nav,
+p {
+  padding-right: 10px;
+}
+
 .nav {
   display: flex;
   flex-direction: row;
   font-size: 16px;
   color: #000000;
   padding-top: 20px;
-  padding-bottom: 19px;
+  padding-bottom: 55px;
 }
 
 .nav p {
-  margin-left: 8px;
   font-size: 16px;
 }
 
+nav,
 a {
   text-decoration: none;
 }
 
-h1 { 
+.floorplan-link {
+  text-decoration: underline;
+  padding-top: 15px;
+}
+
+.up-text {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h1 {
   font-size: 30;
   padding-bottom: 7px;
 }
@@ -82,7 +99,6 @@ h2 {
 }
 
 main {
-  padding-left: 8px;
   font-size: 12px;
 }
 
@@ -94,6 +110,16 @@ span.link-floorplan {
   color: grey;
 }
 
-.information.p {
-  line-height: 2px;
+.project {
+  padding-bottom: 10px;
+  padding-left: 8px;
+  line-height: 14px;
+}
+
+.text-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  color: #000000;
+  line-height: 26px;
 }
